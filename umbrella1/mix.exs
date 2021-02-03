@@ -22,6 +22,9 @@ defmodule Umbrella1.MixProject do
   #
   # Run "mix help deps" for examples and options.
   defp deps do
-    [{:excoveralls, "~> 0.9"}]
+    [{:excoveralls,
+       git: "https://github.com/hirotnk/excoveralls.git",
+       branch: "add-options-to-post",
+       only: :test}]
   end
 end
