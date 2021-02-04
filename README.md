@@ -27,6 +27,6 @@ MIX_ENV=test mix coveralls.post --umbrella --token $TOKEN --build $BUILD_NUM --s
 
 Finally, we report the results with following:
 ```
-curl -k https://coveralls.io/webhook\?repo_token\=$TOKEN -d "payload[build_num]=$BUILD_NUM&payload[status]=done
+curl -k https://coveralls.io/webhook\?repo_token\=$TOKEN -d "payload[build_num]=$BUILD_NUM&payload[status]=done"
 ```
 We can use the same `$BUILD_NUM` for all umbrella projects using mix coveralls.port `--build <build_num>` option.
