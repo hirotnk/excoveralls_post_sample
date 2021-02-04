@@ -6,7 +6,7 @@ This repository shows how ExCoveralls' `coveralls.post` option can be used to ru
 ## Two problems for a repo with multiple umbrella projects
 
 ### Line by line coverage does not show up
-Paths to source files are different for each umbrella project, and detailed coverages for files do not show up on Coveralls UI. To solve thsi issue, you can use `--subdir <path>` and `--rootdir <path>` options.
+Paths to source files are different for each umbrella project, and detailed coverages for files do not show up on Coveralls UI. To solve this issue, you can use `--subdir <path>` and `--rootdir <path>` options.
 ![Path is broken](images/coveralls_missing_code_coverage.png)
 ![Path is NOT broken](images/coveralls_with_code_coverage.png)
 
