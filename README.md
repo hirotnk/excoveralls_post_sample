@@ -1,7 +1,7 @@
 # excoveralls_post_sample
 [![Coverage Status](https://coveralls.io/repos/github/hirotnk/excoveralls_post_sample/badge.svg?branch=master)](https://coveralls.io/github/hirotnk/excoveralls_post_sample?branch=master)
 
-This repository shows how ExCoveralls' `coveralls.post` option can be used to run CI jobs when we have multiple umbrella projects under a repo.
+This repository shows how [ExCoveralls](https://github.com/parroty/excoveralls)' `coveralls.post` options (currently by [PR](https://github.com/parroty/excoveralls/pull/244)) can be used to run CI jobs when we have multiple umbrella projects under a repo.
 
 ## Two problems for a repo with multiple umbrella projects
 
