@@ -1,5 +1,5 @@
 # excoveralls_post_sample
-[![Coverage Status](https://coveralls.io/repos/github/hirotnk/excoveralls_post_sample/badge.svg?branch=main)](https://coveralls.io/github/hirotnk/excoveralls_post_sample?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/hirotnk/excoveralls_post_sample/badge.svg?branch=master)](https://coveralls.io/github/hirotnk/excoveralls_post_sample?branch=master)
 
 This repository shows how ExCoveralls' `coveralls.post` option can be used to run CI jobs when we have multiple umbrella projects under a repo.
 
