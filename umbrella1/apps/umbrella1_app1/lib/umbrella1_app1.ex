@@ -3,11 +3,11 @@ defmodule Umbrella1App1 do
   Documentation for `Umbrella1App1`.
   """
 
-  def add(x,y) do
+  def add(x, y) do
     x + y
   end
 
-  def sub(x,y) do
+  def sub(x, y) do
     x - y
   end
 end
