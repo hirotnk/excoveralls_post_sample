@@ -1,7 +1,7 @@
 # excoveralls_post_sample
 [![Coverage Status](https://coveralls.io/repos/github/hirotnk/excoveralls_post_sample/badge.svg?branch=main)](https://coveralls.io/github/hirotnk/excoveralls_post_sample?branch=main)
 
-This repository shows how [ExCoveralls](https://github.com/parroty/excoveralls)' `coveralls.post` options (currently by [PR](https://github.com/parroty/excoveralls/pull/244)) can be used in some cases.
+This repository shows how [ExCoveralls](https://github.com/parroty/excoveralls)' `coveralls.post` options can be used in some cases.
 
 ## Problem 1: Line by line coverage does not show up
 Paths to source files are different for each umbrella project, and detailed coverages for files do not show up on Coveralls UI. To solve this issue, you can use `--subdir <path>` and `--rootdir <path>` options.
